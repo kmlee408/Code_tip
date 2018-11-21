@@ -9,3 +9,6 @@
         git fetch origin
         git reset --hard origin/master
 
+3. 한글, 한자 데이터 인코딩
+
+        encoding ='utf-8-sig'
