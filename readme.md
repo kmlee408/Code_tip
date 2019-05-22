@@ -15,3 +15,7 @@
 
 4. 버블 정렬 O(N^2)
    선택 정렬 O(N^2/2)
+
+5. tsdb 매트릭 제거
+/usr/share/opentsdb/bin
+./tsdb scan --delete 2014/11/30-00:00:00 2014/12/07-00:00:00 none [metric name]
